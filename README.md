@@ -4,6 +4,10 @@
 
 Snowman is a minimal Twine 2 story format designed for people who already know JavaScript and CSS originally created by Chris Klimas. It is currently maintained by Dan Cox.
 
+## About this fork
+
+This fork adds support for footnotes in the Passage class of Snowman. Footnotes are part of Markdown Extra, but not widely supported.
+
 ## What does Snowman offer?
 
 Snowman does not use macros like Harlowe, SugarCube, and other story formats. Instead, it has two global objects, `window.story` and `window.passage`, that expose functionality for working with the overall story and the current passage, respectively.
